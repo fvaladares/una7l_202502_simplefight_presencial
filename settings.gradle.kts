@@ -1,0 +1,1 @@
+rootProject.name = "una7l_202502_simplefight_presencial"
