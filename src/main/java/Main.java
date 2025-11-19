@@ -4,13 +4,10 @@ public class Main {
 
     public static void main(String[] args) {
         // Declaraçao de uma variável do tipo Personagem;
-        Personagem jogador1;
-        jogador1 = new Personagem();
-        jogador1.nome = "João";
-        jogador1.ataque = 10;
-        jogador1.defesa = 10;
-        jogador1.vida = 200;
-
-        System.out.println(jogador1);
+        for (int i = 0; i < 20; i++) {
+            Personagem jogador1;
+            jogador1 = new Personagem("João");
+            System.out.println(jogador1);
+        }
     }
 }
